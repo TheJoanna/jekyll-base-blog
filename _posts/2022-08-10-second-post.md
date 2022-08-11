@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: My second post
 categories: [travel, australia]
 ---
