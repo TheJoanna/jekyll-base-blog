@@ -4,6 +4,86 @@
     box-sizing: border-box;
 }
 
+img { max-width: 100%; }
+
+[class*=grid] {
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* End temporary styles */
+
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+
+
+.padded    { padding: 5%;    }
+.padded-1  { padding: 1rem;  }
+.padded-2  { padding: 2rem;  }
+
+
+.padded-t  { padding-top: 5%;     }
+.padded-b  { padding-bottom: 5%;  }
+.padded-l  { padding-left: 5%;    }
+.padded-r  { padding-right: 5%;   }
+
+.padded-0   { padding: 0;        }
+.padded-b-0 { padding-bottom: 0; }
+
+.margin-b-0 { margin-bottom: 0;    }
+.margin-b-1 { margin-bottom: 1rem; }
+.margin-b-2 { margin-bottom: 2rem; }
+
+
+.light-text { color: white; } 
+
+
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right; }
+
+.capped-width { 
+    max-width: 1000px;
+    margin: auto;
+}
+
+.capped-width-marrow { 
+    max-width: 900px;
+    margin: auto;
+}
+
+.flex-flip-alternate:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* Typography */
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+h2,h3,h4,h5,h6 {
+    margin-bottom: 0.5rem;
+    /* letter-spacing: -0.01em; */
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+}
+
+p:last-child {
+    margin: 0;
+}
+
 header, 
 footer, 
 section {
@@ -11,4 +91,43 @@ section {
     border: 1px solid lightgrey;
 }
 
-.padded-1 { padding: 1rem; }
+
+/* Classes */
+
+.intro {
+	background-color: lightgray;
+}
+
+.intro h1 {
+    text-transform: uppercase;
+}
+
+.tag {
+    border: 1px solid;
+    padding: 0.25rem;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 3px;
+}
+
+/* Background Image Styles */
+.bg-image {
+    background-size: cover;
+    background-postion: center;
+    background-repeat: no-repeat;
+}
+
+.square {
+    padding-bottom: 100%;
+
+}
+
+.landscape {
+    padding-bottom: 60%;
+    
+}
+
+.plain {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: My third post
+description: Lorem dolorem deserunt aut necessitatibus laudantium maiores doloremque recusandae
+author: Catherine
 categories: [self care, bali]
+featured_image: https://www.instituteofcode.com/houdini.jpg
 ---
 
 ## Adventures in Bali

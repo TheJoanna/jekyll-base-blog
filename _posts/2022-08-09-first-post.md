@@ -1,7 +1,10 @@
 ---
 layout: post
 title: My first post
+description: Adventures to the island of the Gods, exploring hidden waterfalls.
+author: Tina May
 categories: [travel, bali]
+featured_image: https://www.instituteofcode.com/houdini.jpg
 ---
 
 ## Adventures in Bali
